@@ -1,0 +1,13 @@
+done with information retrieval using
+1. simple norming
+2. qr decomposition using gram method
+3. householder transformation
+4. given's transform
+5. svd decomposition
+
+next verified the same query vector using all the above algorithms
+1       we observe that svd decomposition is giving more accurate results
+
+next derived the relative and absolute error ,forward error,obtained by chopping to three decimal points
+1       we observe that svd decomposition is giving relatively less absoulute and relative error compared to other algorithms,hence more stable
+2.    Qr decomposition using gram,householder,givens method almost given same forward error,hence equally stable.
